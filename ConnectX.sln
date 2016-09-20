@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 - ConnectX.Domain", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1 - ConnectX.UI.Web", "ConnectX.UI.Web\0.1 - ConnectX.UI.Web.csproj", "{B6ADAF2A-06AB-408D-B13F-A448B2B13955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnextX.WebApi", "ConnextX.WebApi\ConnextX.WebApi.csproj", "{D99FE776-0BA3-447E-A6ED-7EB986162422}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1 - ConnextX.WebApi", "ConnextX.WebApi\1.1 - ConnextX.WebApi.csproj", "{D99FE776-0BA3-447E-A6ED-7EB986162422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
