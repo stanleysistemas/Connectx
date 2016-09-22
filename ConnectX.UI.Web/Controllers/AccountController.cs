@@ -39,7 +39,26 @@ namespace ConnectX.UI.Web.Controllers
 
             return RedirectToAction("Index", "Home");
         }
-        
+
+
+        //[HttpGet]
+        //public ActionResult PerFilUsuario(Login viewModel)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return View(viewModel);
+
+        //    var usuario = _servicoUsuarioDominio.LogaUsuario(viewModel.Email, viewModel.Password);
+        //    if (usuario == null)
+        //    {
+        //        ModelState.AddModelError("", "Email ou Senha incorretos.");
+        //        return View(viewModel);
+        //    }
+
+        //    SessionManager.UsuarioLogado = usuario;
+
+        //    return RedirectToAction("Index", "Home");
+        //}
+
         public ActionResult Logoff()
         {
             Session.Abandon();

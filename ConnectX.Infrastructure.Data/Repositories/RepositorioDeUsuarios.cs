@@ -15,6 +15,12 @@ namespace ConnectX.Infrastructure.Data.Repositories
             return _contexto.Usuarios.Add(user);
         }
 
+        public Usuario RecuperarUsuarioPorId(int id)
+        {
+            var usuario = _contexto.Usuarios.Where(u => u.IdUsuario == id).FirstOrDefault();
+            return usuario;
+        }
+
         public Usuario LogaUsuario(string email, string senha)
         {
             var usuario = _contexto.Usuarios.Where(u => u.Email == email).FirstOrDefault();

@@ -57,6 +57,10 @@ namespace ConnectX.Domain.Services
             }            
         }
 
-        
+        public Usuario RecuperarUsuarioPorId(int id)
+        {
+            var usuarioRetorno = _repositorioUsuario.RecuperarUsuarioPorId(id);
+            return usuarioRetorno;
+        }
     }
 }

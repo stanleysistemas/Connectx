@@ -14,6 +14,8 @@ namespace ConnectX.Domain.Interfaces.Domain
         List<Usuario> RecuperaUsuariosDoPerfil(int idPerfilUsuario);
         List<PerfilUsuario> RecuperaTodosPerfisAtivos();
 
+        Usuario RecuperarUsuarioPorId(int id);
+
         void CadastraUsuario(Usuario usuario);
     }
 }

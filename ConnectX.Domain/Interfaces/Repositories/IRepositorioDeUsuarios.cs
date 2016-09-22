@@ -10,6 +10,7 @@ namespace ConnectX.Domain.Interfaces.Repositories
     public interface IRepositorioDeUsuarios : IRepositorioBase<Usuario>
     {
         Usuario RecuperarUsuarioPorEmail(string email);
+        Usuario RecuperarUsuarioPorId(int id);
         Usuario LogaUsuario(string email, string senha);
         Usuario CadastraUsuario(Usuario user);
     }
